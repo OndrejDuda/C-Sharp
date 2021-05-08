@@ -1,0 +1,112 @@
+using System;
+
+namespace Training
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * Write a program in C# Sharp to display the first 10 natural numbers.
+            for(int i=0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+            */
+            /*
+             * Write a C# Sharp program to find the sum of first 10 natural numbers.
+            int sum = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                sum += i;
+            }
+            Console.WriteLine(sum);
+            */
+            /*
+             *  Write a program in C# Sharp to display n terms of natural number and their sum.
+            int sum = 0;
+            Console.Write("");
+            int number = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+                sum += i;
+            }
+            Console.WriteLine(sum);
+            */
+            /*
+             * Write a program in C# Sharp to read 10 numbers from keyboard and find their sum and average.
+            int[] num = new int[10];
+            double avg=0;
+            int sum = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("");
+                num[i] = Convert.ToInt32(Console.ReadLine());
+                sum += num[i];
+                avg += num[i];
+            }
+            avg = sum / 10.0;
+            Console.WriteLine(sum);
+            Console.Write("The sum of 10 no is : {0}\nThe Average is : {1}\n", sum, avg);
+        */
+            /*
+             * Write a program in C# Sharp to display the cube of the number up to given an integer.
+            Console.Write("Input number of terms: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= number; i++)
+            {
+            Console.WriteLine("Number is : {0} and cube of the {0} is : {1}",i,i*i*i);
+            }
+            */
+            /*
+             * Write a program in C# Sharp to display the multiplication table of a given integer.
+            Console.Write("Input the number (Table to be calculated) : ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("{0} X {1} = {2}", number, i, number * i);
+            }
+            */
+            /*
+             * Write a program in C# Sharp to display the n terms of odd natural number and their sum.
+            int i, n, sum = 0;
+            Console.Write("Display the sum of n odd natural number:");
+
+            Console.Write("Input number of terms : ");
+            n = Convert.ToInt32(Console.ReadLine());
+            Console.Write("The odd numbers are :");
+            for (i = 1; i <= n; i++)
+            {
+                Console.Write("{0} ", 2 * i - 1);
+                sum += 2 * i - 1;
+            }
+            Console.Write("\nThe Sum of odd Natural Number upto {0} terms : {1} \n", n, sum);
+        */
+            /*
+             * Write a program in C# Sharp to display the pattern like right angle triangle using an asterisk.
+            Console.Write("Height: ");
+            int height = Convert.ToInt32(Console.ReadLine());
+            string j = "*";
+            for (int i = 1; i <= height; i++)
+            {
+                Console.WriteLine(j);
+                j += "*";
+            }
+            */
+            /*
+             * Write a program in C# Sharp to display the pattern like right angle triangle with a number.
+            Console.Write("Height: ");
+            int height = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= height; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                    Console.Write("{0}", j);
+                Console.Write("\n");
+            }
+            */
+        }
+
+    }
+
+}
