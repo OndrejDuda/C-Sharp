@@ -1,0 +1,128 @@
+using System;
+
+namespace Training
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * Write a C# Sharp program to accept two integers and check whether they are equal or not.
+            Console.Write("Input 1st number: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input 2nd number: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+            if(x == y)
+            {
+                Console.WriteLine("{0} and {1} are Equal", x, y);
+            } else
+            {
+                Console.WriteLine("{0} and {1} are not Equal", x, y);
+            }
+            */
+            /*
+             * Write a C# Sharp program to check whether a given number is even or odd.
+            Console.Write("Input 1st number: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            if (x %2 == 1)
+            {
+                Console.WriteLine("{0} is odd", x);
+            }
+            else
+            {
+                Console.WriteLine("{0} is even", x);
+            }
+            */
+            /*
+             *  Write a C# Sharp program to check whether a given number is positive or negative.
+            Console.Write("Input 1st number: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            if (x < 0)
+            {
+                Console.WriteLine("{0} is negative", x);
+            }
+            else if(x == 0)
+            {
+                Console.WriteLine("{0} is 0", x);
+            } else
+            {
+                Console.WriteLine("{0} is positive", x);
+            }
+            */
+            /*
+             * Write a C# Sharp program to find whether a given year is a leap year or not.
+            Console.Write("Test Data : ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            if (x % 4 == 0)
+            {
+                Console.WriteLine("{0} is a leap year", x);
+            }
+            else
+            {
+                Console.WriteLine("{0} is not a leap year", x);
+            }
+            */
+            /*
+             * Write a C# Sharp program to read the age of a candidate and determine whether it is eligible for casting his/her own vote.
+            Console.Write("Test Data : ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            if (x > 20)
+            {
+                Console.WriteLine("Congratulation! You are eligible for casting your vote.");
+            }
+            else
+            {
+                Console.WriteLine(" You are not eligible for casting your vote.");
+            }
+            */
+            /*
+             * Write a C# Sharp program to find the largest of three numbers.
+            Console.Write("Test Data : ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Test Data : ");
+            int y = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Test Data : ");
+            int z = Convert.ToInt32(Console.ReadLine());
+            if(x > y && x > z)
+            {
+                Console.WriteLine("The 1st Number is the greatest among three");
+            } else if (x < y && y>z)
+            {
+                Console.WriteLine("The 2nd Number is the greatest among three");
+            } else
+            {
+                Console.WriteLine("The 3rd Number is the greatest among three");
+            }
+            */
+            /*
+             * Write a C# Sharp program to accept a coordinate point in an XY coordinate system and determine in which quadrant the coordinate point lies.
+            Console.Write("Input the value for X coordinate :");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input the value for Y coordinate :");
+            int y = Convert.ToInt32(Console.ReadLine());
+            if(x>=0 && y >= 0)
+            {
+                Console.WriteLine("The coordinate point ({0},{1}) " +
+                    "lies in the First quadrant.", x,y);
+            } else if (x >= 0 && y < 0)
+            {
+                Console.WriteLine("The coordinate point ({0},{1}) " +
+                                    "lies in the second quadrant.", x, y);
+            }
+            else if (x < 0 && y < 0)
+            {
+                Console.WriteLine("The coordinate point ({0},{1}) " +
+                                    "lies in the third quadrant.", x, y);
+            } else
+            {
+                Console.WriteLine("The coordinate point ({0},{1}) " +
+                                    "lies in the forth quadrant.", x, y);
+            }
+            */
+
+        }
+
+
+    }
+
+}
