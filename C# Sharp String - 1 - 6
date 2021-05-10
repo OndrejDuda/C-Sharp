@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Training
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * Write a program in C# Sharp to input a string and print it.
+            string str = "Welcome, w3resource";
+            Console.WriteLine(str);
+            */
+            /*
+             * Write a program in C# Sharp to find the length of a string without using library function
+            string str = "w3resource.com";
+            Console.WriteLine(str.Length);
+            */
+            /*
+             * Write a program in C# Sharp to separate the individual characters from a string.
+            string str = "w3resource.com";
+            int l = 0;
+            Console.Write("The characters of the string are  :  ");
+            while (l <= str.Length - 1)
+            {
+                Console.Write("{0} ", str[l]);
+                l++;
+            }
+            Console.Write("\n\n");
+            */
+            /*
+             * Write a program in C# Sharp to print individual characters of the string in reverse order.
+            string str = "w3resource.com";
+            Console.Write("The characters of the string are  :  ");
+            for(int i = str.Length-1;i>=0;i--)
+            {
+                Console.Write("{0} ", str[i]);
+            }
+            Console.Write("\n\n");
+            */
+            /*
+             * Write a program in C# Sharp to count the total number of words in a string.
+            string str = "This is w3resource.com";
+            int count = 1;
+            Console.Write("The characters of the string are  :  ");
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str[i] == ' ')
+                {
+                    count++;
+                }
+            }
+            Console.Write(count);
+            */
+            /*
+             * Write a program in C# Sharp to count a total number of alphabets, digits and special characters in a string.
+            string str = "This is first string";
+            string str2 = "This is first string";
+            int count = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str[i] != str2[i])
+                {
+                    count++;
+                }
+            }
+            if(count == 0)
+            {
+                Console.WriteLine("The length of both strings are equal and also, both strings are equal.");
+            } else
+            {
+                Console.Write("Strings are different or not having the same lenght");
+            }
+            Console.Write(count);
+            */
+        }
+    }
+
+}
